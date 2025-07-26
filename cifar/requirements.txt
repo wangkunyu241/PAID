@@ -1,0 +1,10 @@
+timm==1.0.3
+pandas==1.4.4
+numpy==1.19.5
+#git+https://gitcode.com/gh_mirrors/au/auto-attack
+wandb
+iopath
+yacs
+opencv-python
+scipy
+optuna

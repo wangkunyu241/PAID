@@ -1,0 +1,9 @@
+timm==1.0.3
+pandas==1.4.4
+numpy==1.19.5
+wandb
+iopath
+yacs
+opencv-python
+scipy
+optuna

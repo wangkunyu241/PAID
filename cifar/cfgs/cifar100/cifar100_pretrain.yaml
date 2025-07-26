@@ -1,0 +1,33 @@
+MODEL:
+  ADAPTATION: cifar100_pretrain
+  ARCH: Standard_VITB_Ours
+TEST:
+  BATCH_SIZE: 64
+CORRUPTION:
+  DATASET: cifar100
+  SEVERITY:
+    - 5
+  TYPE:
+    - gaussian_noise
+    - shot_noise
+    - impulse_noise
+    - defocus_blur
+    - glass_blur
+    - motion_blur
+    - zoom_blur
+    - snow
+    - frost
+    - fog
+    - brightness
+    - contrast
+    - elastic_transform
+    - pixelate
+    - jpeg_compression
+OPTIM:
+  METHOD: AdamW
+  STEPS: 1
+  BETA: 0.9
+  WD: 0.
+  LR: 3e-4
+  LAMDA: 0.15
+  RANK: 2
