@@ -25,6 +25,7 @@ You need to download the dataset and weight archives and extract them into the a
 │   │   ├── imagenet_warmup.pth
 │   │   ├── pretrain_cifar10.pth
 │   │   ├── pretrain_cifar100.pth
+│   ├── output
 ...
 ```
 
