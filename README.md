@@ -1,5 +1,5 @@
 # PAID: Pairwise Angular-Invariant Decomposition for Continual Test-Time Adaptation
-We have released the code for our paper "PAID: Pairwise Angular-Invariant Decomposition for Continual Test-Time Adaptation", which is submitted to NerulPS.
+We have released the code for our NeurIPS 2025 paper "PAID: Pairwise Angular-Invariant Decomposition for Continual Test-Time Adaptation".
 
 ## Prerequisite
 [CIFAR10C, CIFAR100C, ImageNetC Datasets Download link] 
